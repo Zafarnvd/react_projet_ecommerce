@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // width: 100vw;
+        margin: 1% 2%;
+
+        .pages {
+
+            // margin: auto;
+            a {
+                margin: 0 5%;
+                color: black;
+                text-decoration: none;
+            }
+        }
+
+        .rights {
+            width: 5%;
+
+            span {
+                margin: 0 10%;
+            }
+
+            a {
+                color: black;
+            }
+
+            // .panier{
+
+            //     margin: 0% 5%;
+            // }
+        }
+    }
+}

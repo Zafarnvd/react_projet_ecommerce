@@ -1,0 +1,47 @@
+.contact{
+    position: relative;
+    width: 100%;
+}
+.txt-contact{
+    position: absolute;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    h1{
+        color: white;
+    }
+}
+.contact-us{
+    display: flex;
+    padding: 5% 22%;
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+        p{
+            margin-bottom: 15%;
+            margin-top: 5%;
+        }
+        .input{
+            height: 10%;
+            width: 220%;
+            margin-bottom: 5%;
+        }
+        .msg{
+            height: 20%;
+            width: 220%;
+            margin-bottom: 5%;
+        }
+        button{
+            border-radius: 50px;
+            padding: 2%;
+            border-color: black;
+            background-color: black;
+            color: white;
+            width: 60%;
+        }
+    }
+
+}
